@@ -3,7 +3,7 @@ import React from 'react';
 function Card(props) {
     console.log(props.info.img_url)
     return (
-        <a href={props.info.link} target="_blank" class="card">
+        <a href={props.info.link} target="_blank" class="card" rel="noreferrer">
             <div class="card-body">
                 <div class="portfolio-img">
                     <img src={require(`${props.info.img_url}`)} alt={props.info.img_alt}/>
