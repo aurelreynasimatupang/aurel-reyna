@@ -52,10 +52,10 @@ function App() {
               <a href="mailto:aurelreyna@gmail.com">Email aurelreyna@gmail.com</a>
             </li>
             <li>
-              <a href="www.linkedin.com/in/aurelia-simatupang" target="_blank"> LinkedIn</a>
+              <a href="www.linkedin.com/in/aurelia-simatupang" target="_blank" rel="noreferrer"> LinkedIn</a>
             </li>
             <li>
-              <a href="https://www.datacamp.com/portfolio/aurelreyna" target="_blank">DataCamp</a>
+              <a href="https://www.datacamp.com/portfolio/aurelreyna" target="_blank" rel="noreferrer">DataCamp</a>
             </li>
             <li>
               <a href="https://github.com/aurelreynasimatupang">GitHub</a>
