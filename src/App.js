@@ -1,5 +1,5 @@
 import './App.scss';
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import pfp from "./img/pfp.jpg";
 import Card from "./Card";
 
