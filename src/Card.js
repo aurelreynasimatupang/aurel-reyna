@@ -1,14 +1,18 @@
 import React from 'react';
 
 function Card(props) {
+    console.log(props.info.img_url)
     return (
-        <div class="card">
+        <a href={props.info.link} target="_blank" class="card">
             <div class="card-body">
+                <div class="portfolio-img">
+                    <img src={require(`${props.info.img_url}`)} alt={props.info.img_alt}/>
+                </div>
                 <h5 class="card-title">{props.info.title}</h5>
                 <p class="card-text">{props.info.text}</p>
-                <a href={props.info.link} className="btn btn-primary">Check it out!</a>
+                <div class="btn btn-dark">Check it out!</div>
             </div>
-        </div>
+        </a>
     );
 }
 

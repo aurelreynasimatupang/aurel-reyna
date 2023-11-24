@@ -1,76 +1,220 @@
 body{
-    background-color: #ff4c84;
-    padding: 25px 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  .navbar{
-    padding-left: 15px;
-    padding-top: 3px;
-    padding-bottom: 5px;
-    width: 100%;
-  }
+  background-color: #ff4c84;
+  padding: 25px 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-  .active{
-        background-color: black;
-        padding: 5px 15px;
-        text-decoration: none;
-        color: #ff4c84 !important;
-        border-radius: 500px;
-  }
+// NavBar
 
-  .navbar{
-    position: fixed;
-    top:0;
-    background: #ff4c84;
-  }
+.active{
+      background-color: black;
+      padding: 5px 15px;
+      text-decoration: none;
+      color: #ff4c84 !important;
+      border-radius: 500px;
+}
 
-  .nav-button{
-    text-decoration: none;
-    padding: 5px 15px;
-    border-radius: 500px;
-    color: black;
-    font-size: larger;
-    font-weight: 400;
-    transition: background-color 0.5s;
-  }
+.navbar{
+  width: 100%;
+  position: fixed;
+  left:-25px;
+  top: 0;
+  z-index: 999;
+  background: #ff4c84;
+}
 
-  .nav-button:hover{
-    background-color: rgba(0,0,0,0.5);
-    padding: 5px 15px;
-    border-radius: 500px;
-    text-decoration: none;
-    color: rgba(255,255,255,0.6);
-    font-size: larger;
-    font-weight: 400;
-  }
+.nav-button{
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 500px;
+  color: black;
+  font-size: larger;
+  font-weight: 400;
+  transition: background-color 0.5s;
+}
 
-  h1, h3{
-    color: black;
-  }
+.nav-button:hover{
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px 15px;
+  border-radius: 500px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.6);
+  font-size: larger;
+  font-weight: 400;
+}
 
-  h1{
-    font-weight:bolder;
-    font-size: 60px;
-  }
-
-  h2{
-    color:rgba(255,255,255,0.5);
-    font-size: 32px;
-    font-weight: 400;
-  }
-
-  .pfp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .pfp img{
-    max-width: 300px;
-    border-radius: 500px;
-  }
+//general
 
 .content{
+  padding: 40px 0px;
+}
 
+h1, h3{
+  color: black;
+}
+
+h1{
+  font-weight:bolder;
+  font-size: 60px;
+}
+
+h2{
+  color:white;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.pfp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pfp img{
+  max-width: 300px;
+  border-radius: 500px;
+}
+
+.about-intro{
+  min-width: 300px;
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.about-timeline{
+  height: 550px;
+  #t-2019{
+    position: absolute;
+    top: -14px;
+    left:55px;
+    width: 300px;
+  }
+  #t-2020{
+    text-align: right;
+    position: absolute;
+    top: 62px;
+    right:55px;
+    width: 300px;
+  }
+  #t-2021{
+    position: absolute;
+    top: 138px;
+    left:55px;
+    width: 300px;
+  }
+  #t-2022-1{
+    text-align: right;
+    position: absolute;
+    top: 210px;
+    right:55px;
+    width: 300px;
+  }
+  #t-2022-2{
+    position: absolute;
+    text-align: right;
+    top: 272px;
+    right:55px;
+    width: 300px;
+  }
+  #t-2022-3{
+    position: absolute;
+    text-align: right;
+    top: 388px;
+    right:55px;
+    width: 300px;
+  }
+  #t-2023-1{
+    position: absolute;
+    top: 288px;
+    left:55px;
+    width: 300px;
+  }
+
+  #t-2023-2{
+    position: absolute;
+    top: 380px;
+    left:55px;
+    width: 300px;
+  }
+  .vl {
+    border-left: 6px solid black;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+  }
+  .vhr {
+    background-color: black;
+    width: 50px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    display: inline;
+  }
+  .blank{
+    height: 75px;
+  }
+  .vhl {
+    background-color: black;
+    width: 50px;
+    height: 6px;
+    position: absolute;
+    right: 50%;
+    display: inline;
+  }
+
+}
+
+// Card
+
+.card{
+  margin: 0 20px;
+  height: 100%;
+  transition: all 0.5s;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+  }
+  img{
+    height: 100%;
+    transition: all 0.5s;
+  }
+
+  .portfolio-img{
+    height:200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+}
+
+.card:hover{
+  transform: scale(1.1,1.1);
+  img{
+    transform: scale(1.1,1.1);
+  }
+}
+
+//contact
+.contact{
+  height: 420px;
+  padding: 50px;
+  font-size: 28px;
+  .button{
+    font-size: 25px;
+  }
+  li{
+    list-style-type: none;
+    a{
+      text-decoration: none;
+      color: black;
+      transition: all 0.2s;
+    }
+    a:hover{
+      color: white;
+    }
+  }
 }
