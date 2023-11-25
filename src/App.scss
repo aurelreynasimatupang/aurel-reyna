@@ -1,9 +1,39 @@
 body{
   background-color: #ff4c84;
-  padding: 25px 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.tl-text{
+  width: 300px;
+}
+
+//general
+
+.content{
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+
+h1, h3{
+  color: black;
+}
+
+h1{
+  font-weight:bolder;
+  font-size: 60px;
+}
+
+h2{
+  color:white;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h1, img, h2, h3, h4, h5{
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+// Animation
 @keyframes slideInFromLeft {
   0% {
     transform: translateY(-100%);
@@ -14,27 +44,6 @@ body{
     opacity: 1;
   }
 }
-
-h1, img, h2, h3, h4, h5{
-  animation: 1s ease-out 0s 1 slideInFromLeft;
-}
-
-@media screen and (max-width: 500px) {
-  body{
-    background-color: #ff4c84;
-    padding: 25px 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-}
-
-@media screen and (max-width: 800px) {h4{
-
-  font-size: 19px;
-}
-.tl-text{
-  width: 100px;;
-}}
-
 
 // NavBar
 
@@ -76,26 +85,7 @@ h1, img, h2, h3, h4, h5{
   font-weight: 400;
 }
 
-//general
-
-.content{
-  padding: 40px 0px;
-}
-
-h1, h3{
-  color: black;
-}
-
-h1{
-  font-weight:bolder;
-  font-size: 60px;
-}
-
-h2{
-  color:white;
-  font-size: 32px;
-  font-weight: 400;
-}
+// Main
 
 .pfp{
   display: flex;
@@ -118,9 +108,6 @@ h2{
 
 //about
 
-.tl-text{
-  width: 300px;
-}
 .about-timeline{
   height: 550px;
 
@@ -200,7 +187,7 @@ h2{
 // Card
 
 .card{
-  margin: 0 12px;
+  margin: 0 5px;
   height: 100%;
   transition: all 0.5s;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.9);
@@ -231,10 +218,13 @@ h2{
 }
 
 //contact
+#contact{
+  padding: 50px;
+}
+
 .contact{
   height: 390px;
   width: 400px;
-  padding: 50px 50pc 10px 50px;
   font-size: 28px;
   .button{
     font-size: 25px;
@@ -269,4 +259,45 @@ h2{
   a:hover{
     text-decoration: underline;
   }
+}
+
+// Responsive web
+
+@media screen and (max-width: 800px) {
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h4{
+    font-size: 19px;
+  }
+  .tl-text{
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body{
+    background-color: #ff4c84;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .tl-text{
+    width:150px;
+  }
+
+  .about-timeline #t-2022-2{
+    top: 287px;
+  }
+
+  .about-timeline #t-2022-3{
+    top: 432px;
+  }
+
+  li a{
+    font-size: 22px;
+  }
+
+  li{
+    margin: 0px;
+  }
+
 }

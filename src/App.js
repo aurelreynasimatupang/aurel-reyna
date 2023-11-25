@@ -45,8 +45,8 @@ function App() {
         <Portfolio />
       </div>
       <div id="contact" class="content">
-        <h1>Contact me!</h1>
         <div class="contact">
+        <h1>Contact me!</h1>
           <ul>
             <li>
               <a href="mailto:aurelreyna00@gmail.com">Email aurelreyna00@gmail.com</a>
