@@ -7,8 +7,8 @@ function About(p) {
                 <h1 class="text-center">About</h1>
                 <div class="about-intro">
                     <p>
-                        I am a fresh graduate from University of Groningen with a Bachelors of Computing Science, as well a an Honours and Cum Laude distinction. Currently reside in the Netherlands and always in the hunt for opportunities to learn more about software development. 
-                    </p>
+                    Borned in Indonesia and have lived in various countries, I find myself recently graduated from the University of Groningen, holding a Bachelor's degree in Computing Science with Honors and Cum Laude distinctions. I am presently located in the Netherlands and actively seeking opportunities to further enhance my knowledge and skills in the field of software development.</p>
+                    <p>I am adept at navigating both online and hybrid work environments. Additionally, I possess fluency in English, Chinese, and Indonesian, with ongoing progress in developing proficiency in Dutch on a daily basis.</p>
                 </div>
                 <div class="about-timeline">
                     <div class="vl">
