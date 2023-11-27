@@ -29,7 +29,7 @@ function NavBar() {
       e.target.classList.add('active');
     }
     return (
-        <div class="navbar d-flex justify-content-evenly">
+        <div class="navbar justify-content-center">
         <a href="#about" class={activeSection === 'about' ? 'nav-button active' : 'nav-button'} onClick={handleLinkClick}>About</a>
         <a href="#portfolio" class={activeSection === 'portfolio' ? 'nav-button active' : 'nav-button'} onClick={handleLinkClick}>Portfolio</a>
         <a href="#contact" class={activeSection === 'contact' ? 'nav-button active' : 'nav-button'} onClick={handleLinkClick}>Contact</a>

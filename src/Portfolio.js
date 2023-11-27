@@ -32,7 +32,7 @@ function Portfolio(props) {
             <div class="container mt-5 ps-4 pr-4">
                 <div class="row">
                     {portfolio.map((item, key) => (
-                        <div class="col-md-4 mt-4">
+                        <div class="col-lg-4 mt-4">
                             <Card info={item} id={`portfolio-card-${key}`} class="col-4"/>
                         </div>
                     ))}

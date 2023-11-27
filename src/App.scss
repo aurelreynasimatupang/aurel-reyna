@@ -7,11 +7,15 @@ body{
   width: 300px;
 }
 
+.main{
+  width: 74%;
+  margin: 0 auto;
+}
+
 //general
 
 .content{
-  padding: 40px 0px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 h1, h3{
@@ -58,7 +62,6 @@ h1, img, h2, h3, h4, h5{
 .navbar{
   width: 100%;
   position: fixed;
-  left:-25px;
   top: 0;
   z-index: 999;
   background: #ff4c84;

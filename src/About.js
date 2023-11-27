@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About(p) {
+function About() {
     return (
         <div>
             <h1 class="text-center">About</h1>
