@@ -5,7 +5,7 @@ function Main() {
             <div class="row m-5">
                 <div class="col-lg-6">
                     <h1>Hi! I'm Aurelia Simatupang</h1>
-                    <h2>Junior Web developer enthusiast passionate in full-stack development!</h2>
+                    <h2>Junior web developer enthusiast passionate in full-stack development!</h2>
                     <div class="buzzword">
                     <h5>React!</h5>
                     <h5>BootStrap!</h5>
