@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return (
         <div>
-            <h1 class="text-center">About</h1>
+            <h2 class="text-center">About</h2>
             <div class="about-intro">
                 <p>
                 Borned in Indonesia and have lived in various countries, I find myself recently graduated from the University of Groningen, holding a Bachelor's degree in Computing Science with Honors and Cum Laude distinctions. I am presently located in the Netherlands and actively seeking opportunities to further enhance my knowledge and skills in the field of software development.</p>

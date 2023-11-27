@@ -16,7 +16,7 @@ function Main() {
                 </div>
                 <div class="col-lg-6">
                     <div class="pfp">
-                        <img src={require('./img/pfp.jpg')} alt="aurelreyna"></img>
+                        <img src={require('./img/pfp.jpg')} alt="aurelreyna" title="Aurelia Simatupang"></img>
                     </div>
                 </div>
             </div>

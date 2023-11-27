@@ -12,22 +12,22 @@ function Contact() {
       };
     return (
         <div>
-            <h1>Contact me!</h1>
+            <h2>Contact me!</h2>
             <ul>
               <li>
                 <a href="mailto:aurelreyna00@gmail.com">Email aurelreyna00@gmail.com</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/aurelia-simatupang" target="_blank" rel="noreferrer"> LinkedIn</a>
+                <a href="https://www.linkedin.com/in/aurelia-simatupang" target="_blank" rel="noreferrer" title="LinkedIn of Aurelia"> LinkedIn</a>
               </li>
               <li>
-                <a href="https://www.datacamp.com/portfolio/aurelreyna" target="_blank" rel="noreferrer">DataCamp</a>
+                <a href="https://www.datacamp.com/portfolio/aurelreyna" target="_blank" rel="noreferrer" title="DataCamp of Aurelia">DataCamp</a>
               </li>
               <li>
-                <a href="https://github.com/aurelreynasimatupang" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/aurelreynasimatupang" target="_blank" rel="noreferrer" title="GitHub of Aurelia">GitHub</a>
               </li>
               <li>
-                <a href="https://www.shecodes.io/graduates/23059-aurelia-simatupang"  target="_blank" rel="noreferrer">SheCodes</a>
+                <a href="https://www.shecodes.io/graduates/23059-aurelia-simatupang"  target="_blank" rel="noreferrer" title="GitHub of Aurelia">SheCodes</a>
               </li>
               <li>
                 <div class="btn btn-dark button" onClick={downloadPDF}>
