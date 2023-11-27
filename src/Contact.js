@@ -18,16 +18,16 @@ function Contact() {
                 <a href="mailto:aurelreyna00@gmail.com">Email aurelreyna00@gmail.com</a>
               </li>
               <li>
-                <a href="www.linkedin.com/in/aurelia-simatupang" target="_blank" rel="noreferrer"> LinkedIn</a>
+                <a href="https://www.linkedin.com/in/aurelia-simatupang" target="_blank" rel="noreferrer"> LinkedIn</a>
               </li>
               <li>
                 <a href="https://www.datacamp.com/portfolio/aurelreyna" target="_blank" rel="noreferrer">DataCamp</a>
               </li>
               <li>
-                <a href="https://github.com/aurelreynasimatupang">GitHub</a>
+                <a href="https://github.com/aurelreynasimatupang" target="_blank" rel="noreferrer">GitHub</a>
               </li>
               <li>
-                <a href="https://www.shecodes.io/graduates/23059-aurelia-simatupang">SheCodes</a>
+                <a href="https://www.shecodes.io/graduates/23059-aurelia-simatupang"  target="_blank" rel="noreferrer">SheCodes</a>
               </li>
               <li>
                 <div class="btn btn-dark button" onClick={downloadPDF}>
