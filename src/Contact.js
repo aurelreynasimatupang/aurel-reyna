@@ -11,7 +11,7 @@ function Contact() {
         document.body.removeChild(link);
       };
     return (
-        <div class="contact">
+        <div>
             <h1>Contact me!</h1>
             <ul>
               <li>

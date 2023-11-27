@@ -13,6 +13,29 @@ function App() {
       <NavBar />
       <div class="main">
         <div class="content">
+          <br/>
+          <Main />
+        </div>
+        <div id="about" class="content">
+          <br/>
+          <br/>
+          <About />
+        </div>
+        <div id="portfolio" class="content">
+          <br/>
+          <br/>
+          <Portfolio/>
+        </div>
+        <div id="contact" class="content">
+          <Contact />
+        </div>
+        <br />
+        <br />
+        <p class="footer-text">Hosted by Netlify and <a href="https://github.com/aurelreynasimatupang/aurel-reyna">GitHub</a> </p>
+      
+      </div>
+      {/* <div class="main">
+        <div class="content">
           <br />
           <br />
           <Main />
@@ -32,7 +55,7 @@ function App() {
           <Contact />
         </div>
         <p class="footer-text">Hosted by Netlify and <a href="https://github.com/aurelreynasimatupang/aurel-reyna">GitHub</a> </p>
-    </div>
+      </div> */}
     </div>
   );
 }

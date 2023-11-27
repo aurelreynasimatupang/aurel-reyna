@@ -3,6 +3,10 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.App{
+  width: 100%;
+}
+
 .tl-text{
   width: 300px;
 }
@@ -13,10 +17,6 @@ body{
 }
 
 //general
-
-.content{
-  width: 100%;
-}
 
 h1, h3{
   color: black;
@@ -113,7 +113,6 @@ h1, img, h2, h3, h4, h5{
 
 .about-timeline{
   height: 550px;
-
   #t-2019{
     position: absolute;
     top: -14px;
@@ -223,11 +222,6 @@ h1, img, h2, h3, h4, h5{
 //contact
 #contact{
   padding: 50px;
-}
-
-.contact{
-  height: 390px;
-  width: 400px;
   font-size: 28px;
   .button{
     font-size: 25px;
@@ -279,12 +273,37 @@ h1, img, h2, h3, h4, h5{
 }
 
 @media screen and (max-width: 500px) {
+  .main{
+    width: 100%;
+  }
+  h1{
+    font-size:42px;
+  }
+  h2{
+    font-size:22px;
+  }
+  h3{
+    font-size:13px;
+  }
+  h4{
+    font-size: 13px;
+  }
+  h5{
+    font-size: 12px;
+  }
+  .pfp img{
+    width: 250px;
+  }
+
+  .navbar a{
+    font-size: 15px;
+  }
   body{
     background-color: #ff4c84;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .tl-text{
-    width:150px;
+    width:75px;
   }
 
   .about-timeline #t-2022-2{
@@ -292,7 +311,15 @@ h1, img, h2, h3, h4, h5{
   }
 
   .about-timeline #t-2022-3{
-    top: 432px;
+    top: 400px;
+  }
+
+  .about-timeline #t-2023-2{
+    top: 385px;
+  }
+
+  .about-timeline .vl{
+    height: 475px;
   }
 
   li a{
@@ -301,6 +328,31 @@ h1, img, h2, h3, h4, h5{
 
   li{
     margin: 0px;
+  }
+
+  #contact{
+    padding: 25px;
+    ul{
+      width: 90%;
+    }
+    .button{
+      font-size: 20px;
+    }
+    .btn{
+      min-width: 150px;
+    }
+    li{
+      list-style-type: none;
+      a{
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        transition: all 0.2s;
+      }
+      a:hover{
+        color: white;
+      }
+    }
   }
 
 }
