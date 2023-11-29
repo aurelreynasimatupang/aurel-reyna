@@ -26,6 +26,8 @@ function App() {
           <br/>
           <Portfolio/>
         </div>
+        <br/>
+          <br/>
         <div id="contact" class="content">
           <Contact />
         </div>

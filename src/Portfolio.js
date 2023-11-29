@@ -32,7 +32,7 @@ function Portfolio(props) {
     return (
         <div>
             <h2 class="text-center">Portfolio</h2>
-            <div class="container mt-5 ps-4 pr-4">
+            <div class="container mt-1 ps-4 pr-4">
                 <div class="row">
                     {portfolio.map((item, key) => (
                         <div class="col-lg-4 mt-4">
