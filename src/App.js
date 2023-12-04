@@ -8,9 +8,6 @@ import Contact from './Contact';
 
 
 function App() {
-  const iconStyle = {
-    color: '#000000',
-  };
   return (
     <div className="App">
       <NavBar />
