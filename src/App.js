@@ -6,8 +6,11 @@ import NavBar from './NavBar';
 import Main from './Main';
 import Contact from './Contact';
 
-function App() {
 
+function App() {
+  const iconStyle = {
+    color: '#000000',
+  };
   return (
     <div className="App">
       <NavBar />
@@ -33,7 +36,11 @@ function App() {
         </div>
         <br />
         <br />
-        <p class="footer-text">Built with React. Hosted by Netlify and <a href="https://github.com/aurelreynasimatupang/aurel-reyna">GitHub</a> </p>
+        <p class="footer-text">
+          Built with React. Hosted by Netlify and <a href="https://github.com/aurelreynasimatupang/aurel-reyna">GitHub</a> <br/>
+          <i class="icon-advanced"></i> 2023
+        </p>
+        
       </div>
     </div>
   );
