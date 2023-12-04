@@ -6,7 +6,7 @@ function Portfolio(props) {
     const portfolio = [
         {
           title: 'Weather App',
-          text: 'Project as part of the SheCodes React workshop, built with React.js on top of free API',
+          text: 'Project as part of the SheCodes React workshop, built with React.js and axios on top of free API',
           link: 'https://aurelreynashecodesreact.netlify.app/',
           img_url:'./img/weather.png',
           img_alt:'Weather App',
@@ -14,7 +14,7 @@ function Portfolio(props) {
         },
         {
           title: 'Dictionary App',
-          text: 'Project as part of the SheCodes React workshop, built with React.js on top of free API',
+          text: 'Project as part of the SheCodes React workshop, built with React.js and axios on top of free API',
           link: 'https://reverent-lalande-d8625c.netlify.app/',
           img_url:'./img/dictionary.png',
           img_alt:'Dictionary App',
