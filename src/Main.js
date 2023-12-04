@@ -7,10 +7,9 @@ function Main() {
                     <h1>Hi! I'm Aurelia Simatupang</h1>
                     <h2>Junior web developer enthusiast passionate in full-stack development!</h2>
                     <div class="buzzword">
-                    <h5>React!</h5>
+                    <h5>React.js!</h5>
                     <h5>BootStrap!</h5>
                     <h5>API!</h5>
-                    <h5>DataBase!</h5>
                     <h5>...and more!</h5>
                     </div>
                 </div>
