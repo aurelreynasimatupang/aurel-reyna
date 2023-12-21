@@ -13,8 +13,16 @@ function Portfolio(props) {
         img_title:'Internship work by Aurelia Simatupang'
       },
       {
+        title: `Event's landing page`,
+        text: 'Freelance web development job to create a responsive landing page for the organisation Belt & Road Initiative. React.js front-end following a provided Figma design.',
+        link:'https://bri-id-events.netlify.app/',
+        img_url:'./img/bri-web.png',
+        img_alt: 'BRI Events page',
+        img_title: 'Freelance work by Aurelia Simatupang'
+      },
+      {
         title: `Animation student's portfolio`,
-        text: 'A responsive portfolio website designed for an animation student, with animations and advanced JavaScript functions.',
+        text: 'A responsive React.js-based portfolio website designed for an animation student, with animations and advanced JavaScript functions.',
         link: 'https://louisashannontara.netlify.app/',
         img_url:'./img/shannon.png',
         img_alt:'Article CMS',
