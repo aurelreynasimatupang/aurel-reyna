@@ -6,7 +6,7 @@ function Portfolio(props) {
     const portfolio = [
       {
         title: 'Article CMS',
-        text: '2.5 months internship with Siloam Hospital, code follows a Figma design. Vue.js front-end and Node.js backend, including commercial article website and the article CMS interface for authors.',
+        text: '2.5 months internship with Siloam Hospital, code follows a Figma design. Coded with Vue.js, SaSS, and Adonis.js as backend, including commercial article website and the article CMS interface for authors.',
         link: 'https://www.siloamhospitals.com/informasi-siloam/artikel/',
         img_url:'./img/article.png',
         img_alt:'Article CMS',
@@ -14,7 +14,7 @@ function Portfolio(props) {
       },
       {
         title: `Event's landing page`,
-        text: 'Freelance web development job to create a responsive landing page for the organisation Belt & Road Initiative. React.js front-end following a provided Figma design.',
+        text: 'Freelance web dev project to create a responsive landing page for the organisation Belt & Road Initiative. Coded with React.js + SaSS while following a provided Figma design.',
         link:'https://bri-id-events.netlify.app/',
         img_url:'./img/bri-web.png',
         img_alt: 'BRI Events page',
@@ -22,7 +22,7 @@ function Portfolio(props) {
       },
       {
         title: `Animation student's portfolio`,
-        text: 'A responsive React.js-based portfolio website designed for an animation student, with animations and advanced JavaScript functions.',
+        text: 'A responsive React.js-based portfolio website designed for an animation student, demonstrating css animations, and use of Javascript for conditional rendering.',
         link: 'https://louisashannontara.netlify.app/',
         img_url:'./img/shannon.png',
         img_alt:'Article CMS',
