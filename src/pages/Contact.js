@@ -1,8 +1,9 @@
 import React from 'react';
+import "../styles/app.scss";
 
 function Contact() {
     const downloadPDF = () => {
-        const pdfUrl = require("./img/cv_aurelreyna.pdf");
+        const pdfUrl = require("../img/cv_aurelreyna.pdf");
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "aurelreynapdf"; // specify the filename
@@ -30,7 +31,7 @@ function Contact() {
                 <a href="https://www.shecodes.io/graduates/23059-aurelia-simatupang"  target="_blank" rel="noreferrer" title="GitHub of Aurelia">SheCodes</a>
               </li>
               <li>
-                <div class="btn btn-dark button" onClick={downloadPDF}>
+                <div class="btn btn-brown button" onClick={downloadPDF}>
                   Download my CV!
                 </div>
               </li>

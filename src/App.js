@@ -1,10 +1,10 @@
-import './App.scss';
 import React from 'react';
-import About from './About';
-import Portfolio from './Portfolio';
-import NavBar from './NavBar';
-import Main from './Main';
-import Contact from './Contact';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import NavBar from './component/NavBar';
+import Main from './pages/Main';
+import Contact from './pages/Contact';
+import './styles/app.scss';
 
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
       <NavBar />
       <div class="main">
         <div class="content">
+          <br/>
+          <br/>
           <br/>
           <Main />
         </div>

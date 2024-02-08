@@ -1,0 +1,46 @@
+@import "./app.scss";
+
+// NavBar
+.active{
+    background-color: $secondary-color;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: $primary-color !important;
+    border-radius: 500px;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: $primary-color;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.nav-button{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 500px;
+    color: $secondary-color;
+    font-size: larger;
+    font-weight: 400;
+    transition: background-color 0.5s;
+}
+
+.nav-button:hover{
+    background-color: $secondary-color-transparent;
+    padding: 5px 15px;
+    border-radius: 500px;
+    text-decoration: none;
+    color: $tertiary-color;
+    font-size: larger;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a{
+        font-size: 15px;
+    }
+
+}

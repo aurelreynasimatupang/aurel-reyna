@@ -1,0 +1,206 @@
+@import "./app.scss";
+
+// Main
+.heading {
+    h1, h2, h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .thinner {
+        font-weight: 100;
+        font-size: 48px;
+    }
+}
+
+.pfp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp img{
+    max-width: 420px;
+    border-radius: 500px;
+}
+
+//about
+.tl-text{
+    width: 300px;
+    b {
+        color: $tertiary-color;
+    }
+}
+
+.about-intro{
+    min-width: 300px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: $body-font-2;
+}
+
+.about-timeline{
+    height: 700px;
+    #t-2019{
+        position: absolute;
+        top: 63px;
+        left:58px;
+    }
+    #t-2020{
+        text-align: right;
+        position: absolute;
+        top: 137px;
+        right:58px;
+    }
+    #t-2021{
+        position: absolute;
+        top: 213px;
+        left:58px;
+    }
+    #t-2022-1{
+        text-align: right;
+        position: absolute;
+        top: 288px;
+        right:58px;
+    }
+    #t-2022-2{
+        position: absolute;
+        text-align: right;
+        top: 377px;
+        right:58px;
+    }
+    #t-2022-3{
+        position: absolute;
+        text-align: right;
+        top: 438px;
+        right:58px;
+    }
+    #t-2023-1{
+        position: absolute;
+        top: 363px;
+        left:58px;
+    }
+
+    #t-2023-2{
+        position: absolute;
+        top: 453px;
+        left:58px;
+    }
+    #t-2024{
+        position: absolute;
+        top: 588px;
+        right:58px;
+        text-align: right;
+    }
+    .blank{
+        height: 75px;
+    }
+    .vl {
+        border-left: 6px solid $secondary-color;
+        height: 600px;
+        position: absolute;
+        left: 50%;
+    }
+    .vhr {
+        background-color: $secondary-color;
+        width: 50px;
+        height: 6px;
+        position: absolute;
+        left: 50%;
+        display: inline;
+    }
+    .vhl {
+        background-color: $secondary-color;
+        width: 50px;
+        height: 6px;
+        position: absolute;
+        right: 50%;
+        display: inline;
+    }
+}
+
+//contact
+#contact{
+    font-size: 28px;
+    .button{
+      font-size: 25px;
+    }
+    ul{
+      width: 500px;
+    }
+    .btn{
+      min-width: 240px;
+    }
+    li{
+      list-style-type: none;
+      a{
+        text-decoration: none;
+        color: $secondary-color;
+        transition: all 0.2s;
+      }
+      a:hover{
+        color: white;
+      }
+    }
+  }
+
+@media screen and (max-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .tl-text{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pfp img{
+        width: 250px;
+    }
+    .tl-text{
+        width:75px;
+    }
+
+    .about-timeline #t-2022-2{
+        top: 280px;
+    }
+
+    .about-timeline #t-2022-3{
+        top: 400px;
+    }
+
+    .about-timeline #t-2023-2{
+        top: 375px;
+    }
+
+    .about-timeline .vl{
+        height: 475px;
+    }
+
+    #contact{
+        margin-bottom:75px;
+        padding: 25px;
+        ul{
+            width: 90%;
+        }
+        .button{
+            font-size: 20px;
+        }
+        .btn{
+            min-width: 150px;
+        }
+        li{
+            list-style-type: none;
+            a{
+            font-size: 18px;
+            text-decoration: none;
+            color: $secondary-color;
+            transition: all 0.2s;
+            }
+            a:hover{
+            color: white;
+            }
+        }
+    }
+}
