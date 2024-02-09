@@ -13,7 +13,7 @@ function Portfolio(props) {
         img_url:'article.png',
         img_alt:'Article CMS',
         img_title:'Internship work by Aurelia Simatupang',
-        tags:['Vue.js','Typescript', 'sass']
+        tags:['Vue.js','Typescript', 'Sass']
       },
       {
         title: `Event's landing page`,

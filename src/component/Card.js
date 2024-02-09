@@ -2,27 +2,22 @@ import React from 'react';
 
 function Card(props) {
     return (
-        <div class="card">
+        <a href={props.info.link} target="_blank" rel="noreferrer">
+            <div class="card">
                 <div class="portfolio-img">
                     <img src={require(`../img/${props.info.img_url}`)} alt={props.info.img_alt} title={props.info.img_title}/>
                 </div>
                 <div class="card-textbox">
-                    <h5 class="card-title">{props.info.title}</h5>
+                    <h6 class="card-title">{props.info.title}</h6>
                     <p class="card-text">{props.info.text}</p>
-                    
                     <div class="tags-gallery">
                         {props.info.tags.map(a => (
                             <div key={`${props.info.title}-${a}`} class="tag">{a}</div>    
                         ))}
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <a href={props.info.link} target="_blank" rel="noreferrer">
-                        Check it out!
-                    </a>
                 </div>
-        </div>
+            </div>
+        </a>
     );
 }
 

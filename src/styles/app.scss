@@ -1,13 +1,15 @@
-$primary-color:#e7b0b9;
+$primary-color:#f7cac9;
 $secondary-color: #3b1e23;
 $secondary-color-transparent: rgba(59,30,35,0.5);
-$tertiary-color: white;
-$body-font-2:Georgia, 'Times New Roman', Times, serif;
-$body-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$tertiary-color: #822bf4;
+$title-font: Georgia, 'Times New Roman', Times, serif;
+$body-font: 'Avenir', sans-serif;
+                                                
 
 body{
   background-color: $primary-color;
   font-family: $body-font;
+  font-weight: 500;
 }
 
 .App{
@@ -15,7 +17,7 @@ body{
 }
 
 .main{
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -31,9 +33,11 @@ h1{
 }
 
 h2{
-  color:$tertiary-color;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: $title-font;
+  color: $tertiary-color;
 }
 
 h3 {

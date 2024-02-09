@@ -1,13 +1,26 @@
 @import "./app.scss";
 
+.content {
+    margin-top: 100px;
+    min-height: 480px;
+}
+
 // Main
 .heading {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     h1, h2, h3 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: $title-font;
     }
-    .thinner {
-        font-weight: 100;
+    h1 {
+        font-weight: 200;
         font-size: 48px;
+        b{
+            color: $tertiary-color;
+            font-weight: 600;
+        }
     }
 }
 
@@ -15,88 +28,75 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left:30px
 }
 
 .pfp img{
-    max-width: 420px;
+    max-width: 360px;
     border-radius: 500px;
 }
 
 //about
 .tl-text{
     width: 300px;
-    b {
+    h4 {
         color: $tertiary-color;
+        font-family: $title-font;
+        font-weight: 600;
+        font-size: 28px;
     }
 }
 
 .about-intro{
     min-width: 300px;
-    max-width: 50%;
+    max-width: 100%;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
-    font-family: $body-font-2;
+    margin-bottom: 120px;
+    font-family: $body-font;
 }
 
 .about-timeline{
     height: 700px;
-    #t-2019{
+    font-size: 20px;
+    #t-2018{
         position: absolute;
-        top: 63px;
+        top: 463px;
         left:58px;
     }
     #t-2020{
         text-align: right;
         position: absolute;
-        top: 137px;
+        top: 383px;
         right:58px;
     }
     #t-2021{
         position: absolute;
-        top: 213px;
+        top: 228px;
         left:58px;
     }
-    #t-2022-1{
+    #t-2022{
         text-align: right;
         position: absolute;
-        top: 288px;
+        top: 147px;
         right:58px;
     }
-    #t-2022-2{
+    #t-2023{
         position: absolute;
-        text-align: right;
-        top: 377px;
-        right:58px;
-    }
-    #t-2022-3{
-        position: absolute;
-        text-align: right;
-        top: 438px;
-        right:58px;
-    }
-    #t-2023-1{
-        position: absolute;
-        top: 363px;
-        left:58px;
-    }
-
-    #t-2023-2{
-        position: absolute;
-        top: 453px;
+        top: 63px;
         left:58px;
     }
     #t-2024{
         position: absolute;
-        top: 588px;
+        top: -14px;
         right:58px;
         text-align: right;
     }
     .blank{
-        height: 75px;
+        height: 80px;
     }
     .vl {
-        border-left: 6px solid $secondary-color;
+        border-left: 3px solid $secondary-color;
         height: 600px;
         position: absolute;
         left: 50%;
@@ -104,7 +104,7 @@
     .vhr {
         background-color: $secondary-color;
         width: 50px;
-        height: 6px;
+        height: 3px;
         position: absolute;
         left: 50%;
         display: inline;
@@ -112,7 +112,7 @@
     .vhl {
         background-color: $secondary-color;
         width: 50px;
-        height: 6px;
+        height: 3px;
         position: absolute;
         right: 50%;
         display: inline;
@@ -132,13 +132,17 @@
 //contact
 #contact{
     font-size: 28px;
+    font-weight: 600;
     .button{
-      font-size: 25px;
-      background-color: $secondary-color;
-      color:white;
+        margin-top: 15px;
+        font-size: 25px;
+        border: 3px solid $secondary-color;
+        color:$secondary-color;
+        border-radius: 30px;
     }
     .button:hover {
-        background-color: $secondary-color-transparent;
+        background-color: $secondary-color;
+        color: white;
     }
     ul{
       width: 500px;
@@ -159,8 +163,13 @@
     }
   }
 
-@media screen and (max-width: 1400px) {
-    
+@media screen and (min-width: 1400px) {
+    .content {
+        min-height: 750px;
+    }
+    .heading {
+        height: 750px;
+    }
 }
 
 @media screen and (max-width: 800px) {

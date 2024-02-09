@@ -13,9 +13,6 @@ function App() {
       <NavBar />
       <div class="main">
         <div class="content">
-          <br/>
-          <br/>
-          <br/>
           <Main />
         </div>
         <div id="about" class="content">
@@ -28,9 +25,9 @@ function App() {
           <br/>
           <Portfolio/>
         </div>
-        <br/>
-          <br/>
         <div id="contact" class="content">
+        <br/>
+        <br/>
           <Contact />
         </div>
         <br />
