@@ -179,6 +179,12 @@
 }
 
 @media screen and (max-width: 500px) {
+    .content {
+        min-height: 800px;
+    }
+    .heading {
+        height: 750px;
+    }
     .gone {
         display: none;
         opacity: 0%;
@@ -191,28 +197,51 @@
         width: 250px;
     }
     .tl-text{
-        width:75px;
+        width:110px;
+        h4 {
+            font-size: 20px;
+        }
     }
 
-    .about-timeline #t-2022-2{
-        top: 370px;
-    }
-
-    .about-timeline #t-2022-3{
-        top: 440px;
-    }
-
-    .about-timeline #t-2023-2{
-        top: 4px;
-    }
-    .about-timeline #t-2024{
-        top: 520px;
-        left:58px;
-        text-align: left;
-    }
-
-    .about-timeline .vl{
-        height: 531px;
+    .about-timeline {
+        height: 700px;
+        font-size: 12px;
+        #t-2018{
+            position: absolute;
+            top: 463px;
+            left:58px;
+        }
+        #t-2020{
+            text-align: right;
+            position: absolute;
+            top: 383px;
+            right:58px;
+        }
+        #t-2021{
+            position: absolute;
+            top: 228px;
+            left:58px;
+        }
+        #t-2022{
+            text-align: right;
+            position: absolute;
+            top: 147px;
+            right:58px;
+        }
+        #t-2023{
+            position: absolute;
+            top: 63px;
+            left:58px;
+        }
+        #t-2024{
+            position: absolute;
+            top: -14px;
+            right:58px;
+            text-align: right;
+        }
+        .vl{
+            height: 531px;
+        }
     }
 
     #contact{
