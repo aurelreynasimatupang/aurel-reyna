@@ -13,7 +13,7 @@ function Portfolio(props) {
         img_url:'article.png',
         img_alt:'Article CMS',
         img_title:'Internship work by Aurelia Simatupang',
-        tags:['Vue.js','Typescript']
+        tags:['Vue.js','Typescript', 'sass']
       },
       {
         title: `Event's landing page`,
@@ -49,7 +49,7 @@ function Portfolio(props) {
         img_url:'dictionary.png',
         img_alt:'Dictionary App',
         img_title:'Dictionary App created by Aurelia Simatupang',
-        tags:['React.js']
+        tags:['React.js', 'axios']
       },
       {
         title: 'Weather App',
@@ -58,7 +58,7 @@ function Portfolio(props) {
         img_url:'worldclock.png',
         img_alt:'World Clock App',
         img_title:'World Clock App created by Aurelia Simatupang',
-        tags: ['React.js', 'moment.js']
+        tags: ['Vanilla js', 'HTML5','CSS','moment.js']
       }
     ];
     return (

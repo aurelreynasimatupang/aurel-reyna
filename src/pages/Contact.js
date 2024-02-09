@@ -31,7 +31,7 @@ function Contact() {
                 <a href="https://www.shecodes.io/graduates/23059-aurelia-simatupang"  target="_blank" rel="noreferrer" title="GitHub of Aurelia">SheCodes</a>
               </li>
               <li>
-                <div class="btn btn-brown button" onClick={downloadPDF}>
+                <div class="btn button" onClick={downloadPDF}>
                   Download my CV!
                 </div>
               </li>

@@ -33,8 +33,9 @@ function About() {
                 <h4 id="t-2023-2" class="tl-text">Oct: Obtained Bachelors Degree in CompSci</h4>
                 <div class="blank"></div>
                 <div class="blank"></div>
-                <div class="blank"></div>
-                <div class="vhl"></div>
+                <div class="blank gone"></div>
+                <div class="vhl gone"></div>
+                <div class="vhr reverse-gone"></div>
                 <h4 id="t-2024" class="tl-text"><b>2024</b><br/> Concluded Freelance Web Project for P.T. Cahy Amert Internusa</h4>
                 </div>
             </div>

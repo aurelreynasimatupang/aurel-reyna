@@ -9,9 +9,12 @@ function Card(props) {
                 <div class="card-textbox">
                     <h5 class="card-title">{props.info.title}</h5>
                     <p class="card-text">{props.info.text}</p>
-                    {props.info.tags.map(a => (
-                        <div key={`${props.info.title}-${a}`} class="tag">{a}</div>    
-                    ))}
+                    
+                    <div class="tags-gallery">
+                        {props.info.tags.map(a => (
+                            <div key={`${props.info.title}-${a}`} class="tag">{a}</div>    
+                        ))}
+                    </div>
                     <br/>
                     <br/>
                     <br/>

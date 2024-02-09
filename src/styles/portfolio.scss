@@ -32,6 +32,9 @@
     .card-title {
       color: $secondary-color;
     }
+    .tags-gallery {
+      height:65px
+    }
     .tag {
       background-color: $primary-color;
       display: inline-block;
@@ -40,6 +43,7 @@
       border-radius: 30px;
       margin-left: 5px;
       margin-right: 5px;
+      margin-top: 5px;
     }
     a {
       border-radius: 0px 0px 5px 5px;
@@ -70,6 +74,17 @@
         bottom: 0px;  // Move <a> to a visible position
         opacity: 1;  // Make <a> visible on hover
       }
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .card{
+    margin-left: 12px;
+    margin-right: 12px;
+    a {
+      opacity: 100% !important;  // Initially invisible
     }
   }
 }

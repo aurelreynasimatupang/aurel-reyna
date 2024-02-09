@@ -119,11 +119,26 @@
     }
 }
 
+.gone {
+    display: block;
+    opacity: 100%;
+}
+.reverse-gone {
+    display: none;
+    opacity: 0%;
+}
+
+
 //contact
 #contact{
     font-size: 28px;
     .button{
       font-size: 25px;
+      background-color: $secondary-color;
+      color:white;
+    }
+    .button:hover {
+        background-color: $secondary-color-transparent;
     }
     ul{
       width: 500px;
@@ -155,6 +170,14 @@
 }
 
 @media screen and (max-width: 500px) {
+    .gone {
+        display: none;
+        opacity: 0%;
+    }
+    .reverse-gone {
+        display: block;
+        opacity: 100%;
+    }
     .pfp img{
         width: 250px;
     }
@@ -163,19 +186,24 @@
     }
 
     .about-timeline #t-2022-2{
-        top: 280px;
+        top: 370px;
     }
 
     .about-timeline #t-2022-3{
-        top: 400px;
+        top: 440px;
     }
 
     .about-timeline #t-2023-2{
-        top: 375px;
+        top: 4px;
+    }
+    .about-timeline #t-2024{
+        top: 520px;
+        left:58px;
+        text-align: left;
     }
 
     .about-timeline .vl{
-        height: 475px;
+        height: 531px;
     }
 
     #contact{
