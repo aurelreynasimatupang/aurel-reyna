@@ -8,12 +8,12 @@ function Portfolio(props) {
     const portfolio = [
       {
         title: 'Article CMS',
-        text: '2.5 months internship with Siloam Hospital, code follows a Figma design. Coded with Vue.js, SaSS, and Adonis.js as backend, including commercial article website and the article CMS interface for authors.',
+        text: '2.5 months internship with Siloam Hospital, code follows a Figma design. Including public article website and the article CMS interface for authors.',
         link: 'https://www.siloamhospitals.com/informasi-siloam/artikel/',
         img_url:'article.png',
         img_alt:'Article CMS',
         img_title:'Internship work by Aurelia Simatupang',
-        tags:['Vue.js','Typescript', 'Sass']
+        tags:['Vue.js','Typescript', 'Adonis.js', 'postgreSQL','Sass']
       },
       {
         title: `Event's landing page`,
@@ -52,7 +52,7 @@ function Portfolio(props) {
         tags:['React.js', 'axios']
       },
       {
-        title: 'Weather App',
+        title: 'Worldclock App',
         text: 'Project as part of the SheCodes React Plus Addon workshop, built with vanilla Javascript and moment.js.',
         link: 'https://worldclock-aurelreyna.netlify.app',
         img_url:'worldclock.png',
