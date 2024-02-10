@@ -30,7 +30,7 @@ function Portfolio(props) {
         link: 'https://louisashannontara.netlify.app/',
         img_url:'shannon.png',
         img_alt:'Article CMS',
-        img_title:'Oortfolio website by Aurelia Simatupang',
+        img_title:'Portfolio website by Aurelia Simatupang',
         tags: ['React.js', 'React Router', 'Sass']
       },
       {
