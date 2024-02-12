@@ -69,7 +69,7 @@ function Contact() {
                 onMouseEnter={() => handleMouseEnter("shecodes")} 
                 onMouseLeave={handleMouseLeave}
               >
-              <img src={hoveredLink === "shecodes" ? require("../img/shescodes_white.png") : require("../img/shecodes_brown.png")} alt="Shecodes Icon" />
+              <img src={hoveredLink === "shecodes" ? require("../img/shecodes_white.png") : require("../img/shecodes_brown.png")} alt="Shecodes Icon" />
               SheCodes</a>
             </li>
             <li>
