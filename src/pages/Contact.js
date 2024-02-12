@@ -61,7 +61,16 @@ function Contact() {
                 DataCamp</a>
             </li>
             <li>
-              <a href="https://www.shecodes.io/graduates/23059-aurelia-simatupang"  target="_blank" rel="noreferrer" title="GitHub of Aurelia">SheCodes</a>
+              <a 
+                href="https://www.shecodes.io/graduates/23059-aurelia-simatupang"  
+                target="_blank" 
+                rel="noreferrer" 
+                title="SheCodes Profile of Aurelia"
+                onMouseEnter={() => handleMouseEnter("shecodes")} 
+                onMouseLeave={handleMouseLeave}
+              >
+              <img src={hoveredLink === "shecodes" ? require("../img/shescodes_white.png") : require("../img/shecodes_brown.png")} alt="Shecodes Icon" />
+              SheCodes</a>
             </li>
             <li>
               <div 
