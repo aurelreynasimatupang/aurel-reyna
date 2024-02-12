@@ -23,7 +23,7 @@ function Portfolio(props) {
         img_url:'bri-web.png',
         img_alt: 'BRI Events page',
         img_title: 'Freelance work by Aurelia Simatupang',
-        tags:['React.js', 'React Router', 'Sass', 'Figma'],
+        tags:['React.js', 'React Router', 'Sass', 'web hosting', 'Figma'],
         type:'prof'
       },
       {
