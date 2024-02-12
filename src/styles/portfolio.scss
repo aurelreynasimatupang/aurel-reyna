@@ -1,4 +1,12 @@
 @import "./app.scss";
+
+#github-link {
+  color: $tertiary-color !important;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -8,16 +16,27 @@ a:hover {
   }
 }
 
+.txt-prof, .txt-pers {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.txt-prof {
+  color: $tertiary-color;
+}
+
+.txt-pers {
+  color: #45B228;
+}
 // Card
 
 .card{
+  height: 100%;
   border: none;
   border-radius: 15px;
   transition: all 0.5s;
   box-shadow: 0px 3px 0px 0px grey;
   text-decoration: none;
-  margin-top:20px;
-  margin-bottom: 20px;
   padding: 20px;
 
   p{
@@ -54,10 +73,20 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .card{
+    img{
+      min-width: 100%;
+      max-width: 125%;
+      transition: all 0.5s;
+    }
+  }
 
+}
 @media screen and (max-width: 500px) {
   .card{
     margin-left: 12px;
     margin-right: 12px;
   }
+
 }

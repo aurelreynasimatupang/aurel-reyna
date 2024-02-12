@@ -6,8 +6,8 @@
 }
 
 // Main
-.heading {
-    height: 480px;
+#heading {
+    min-height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,110 +22,17 @@
             font-weight: 600;
         }
     }
-}
-
-.pfp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left:30px
-}
-
-.pfp img{
-    max-width: 360px;
-    border-radius: 500px;
-}
-
-//about
-.tl-text{
-    width: 300px;
-    h4 {
-        color: $tertiary-color;
-        font-family: $title-font;
-        font-weight: 600;
-        font-size: 28px;
+    
+    .pfp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:30px;
+        img {
+            max-width: 360px;
+            border-radius: 500px;
+        }
     }
-}
-
-.about-intro{
-    min-width: 300px;
-    max-width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 120px;
-    font-family: $body-font;
-}
-
-.about-timeline{
-    height: 700px;
-    font-size: 20px;
-    #t-2018{
-        position: absolute;
-        top: 463px;
-        left:58px;
-    }
-    #t-2020{
-        text-align: right;
-        position: absolute;
-        top: 383px;
-        right:58px;
-    }
-    #t-2021{
-        position: absolute;
-        top: 228px;
-        left:58px;
-    }
-    #t-2022{
-        text-align: right;
-        position: absolute;
-        top: 147px;
-        right:58px;
-    }
-    #t-2023{
-        position: absolute;
-        top: 63px;
-        left:58px;
-    }
-    #t-2024{
-        position: absolute;
-        top: -14px;
-        right:58px;
-        text-align: right;
-    }
-    .blank{
-        height: 80px;
-    }
-    .vl {
-        border-left: 3px solid $secondary-color;
-        height: 600px;
-        position: absolute;
-        left: 50%;
-    }
-    .vhr {
-        background-color: $secondary-color;
-        width: 50px;
-        height: 3px;
-        position: absolute;
-        left: 50%;
-        display: inline;
-    }
-    .vhl {
-        background-color: $secondary-color;
-        width: 50px;
-        height: 3px;
-        position: absolute;
-        right: 50%;
-        display: inline;
-    }
-}
-
-.gone {
-    display: block;
-    opacity: 100%;
-}
-.reverse-gone {
-    display: none;
-    opacity: 0%;
 }
 
 
@@ -133,118 +40,103 @@
 #contact{
     font-size: 28px;
     font-weight: 600;
-    .button{
+    .button {
         margin-top: 15px;
         font-size: 25px;
         border: 3px solid $secondary-color;
         color:$secondary-color;
         border-radius: 30px;
+        display: flex;
+        align-items: center;
+        width: fit-content;
     }
     .button:hover {
         background-color: $secondary-color;
         color: white;
     }
-    ul{
+    ul {
       width: 500px;
     }
-    .btn{
+    .btn {
       min-width: 240px;
     }
-    li{
+    .center-y {
+        display: flex;
+        align-items: center;
+    }
+    li {
       list-style-type: none;
+      margin-top: 5px;
+      margin-bottom: 5px;
       a{
+        display: flex;
+        width: fit-content;
+        align-items: center;
         text-decoration: none;
         color: $secondary-color;
+        img {
+            margin-right: 5px; // Adjust as needed
+            transition: all 0.2s; // Add transition for the image
+            height: 35px;
+        }
         transition: all 0.2s;
       }
       a:hover{
         color: white;
       }
     }
-  }
+    #download_icon {
+        height: 40px;
+        margin-right: 10px;
+    }
+}
 
 @media screen and (min-width: 1400px) {
     .content {
         min-height: 750px;
     }
-    .heading {
-        height: 750px;
+    #heading {
+        min-height: 750px;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .tl-text{
-        width: 200px;
+@media screen and (max-width:991px) {
+    #heading {
+        .pfp {
+            margin: 0 auto;
+            max-width: 800px;
+            height:400px;
+            border-radius: 0px 0px 250px 250px;
+            overflow: hidden;
+            img {
+                position: relative;
+                border-radius: 0;
+                min-width: 100%;
+                min-height: 100%;
+                top: 0px;
+            }
+        }
     }
 }
 
 @media screen and (max-width: 500px) {
     .content {
-        min-height: 800px;
+        margin-top: 60px;
     }
-    .heading {
-        height: 750px;
-    }
-    .gone {
-        display: none;
-        opacity: 0%;
-    }
-    .reverse-gone {
-        display: block;
-        opacity: 100%;
-    }
-    .pfp img{
-        width: 250px;
-    }
-    .tl-text{
-        width:110px;
-        h4 {
-            font-size: 20px;
+    #heading {
+        min-height: 400px;
+        h1{
+            font-size: 32px;
+        }
+        h5 {
+            font-size:16px;
+        }
+        .pfp {
+            max-width: 400px;
         }
     }
 
-    .about-timeline {
-        height: 700px;
-        font-size: 12px;
-        #t-2018{
-            position: absolute;
-            top: 463px;
-            left:58px;
-        }
-        #t-2020{
-            text-align: right;
-            position: absolute;
-            top: 383px;
-            right:58px;
-        }
-        #t-2021{
-            position: absolute;
-            top: 228px;
-            left:58px;
-        }
-        #t-2022{
-            text-align: right;
-            position: absolute;
-            top: 147px;
-            right:58px;
-        }
-        #t-2023{
-            position: absolute;
-            top: 63px;
-            left:58px;
-        }
-        #t-2024{
-            position: absolute;
-            top: -14px;
-            right:58px;
-            text-align: right;
-        }
-        .vl{
-            height: 531px;
-        }
-    }
-
-    #contact{
+    #contact {
         margin-bottom:75px;
         padding: 25px;
         ul{
@@ -268,5 +160,16 @@
             color: white;
             }
         }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #heading {
+        .pfp {
+            max-width: 300px;
+        }
+    }
+    .tl-text {
+        width:95px;
     }
 }

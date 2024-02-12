@@ -4,12 +4,11 @@ import "../styles/main.scss";
 
 function Main() {
     return (
-        <div class="heading">
             <div class="row">
                 <div class="col-lg-6">
                     <h1>Hi! I'm Aurelia Simatupang<br/>
                     <b>Junior web developer</b><br/> passionate in full stack development!</h1>
-                    <div class="buzzword">
+                    <div>
                         <h5>React.js!</h5>
                         <h5>BootStrap!</h5>
                         <h5>API!</h5>
@@ -18,11 +17,10 @@ function Main() {
                 </div>
                 <div class="col-lg-6">
                     <div class="pfp">
-                    <img src={require('../img/pfp.jpg')} alt="aurelreyna" title="Aurelia Simatupang"></img>
+                        <img src={require('../img/pfp.jpg')} alt="aurelreyna" title="Aurelia Simatupang"></img>
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 

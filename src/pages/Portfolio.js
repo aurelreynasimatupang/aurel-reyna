@@ -13,7 +13,8 @@ function Portfolio(props) {
         img_url:'article.png',
         img_alt:'Article CMS',
         img_title:'Internship work by Aurelia Simatupang',
-        tags:['Vue.js','Typescript', 'Adonis.js', 'postgreSQL','Sass']
+        type:'prof',
+        tags:['Vue.js','Typescript', 'Adonis.js', 'postgreSQL','Sass', 'Figma']
       },
       {
         title: `Event's landing page`,
@@ -22,7 +23,8 @@ function Portfolio(props) {
         img_url:'bri-web.png',
         img_alt: 'BRI Events page',
         img_title: 'Freelance work by Aurelia Simatupang',
-        tags:['React.js', 'React Router', 'Sass'],
+        tags:['React.js', 'React Router', 'Sass', 'Figma'],
+        type:'prof'
       },
       {
         title: `Animation student's portfolio`,
@@ -31,7 +33,8 @@ function Portfolio(props) {
         img_url:'shannon.png',
         img_alt:'Article CMS',
         img_title:'Portfolio website by Aurelia Simatupang',
-        tags: ['React.js', 'React Router', 'Sass']
+        tags: ['React.js', 'React Router', 'Sass'],
+        type:'prof'
       },
       {
         title: 'Weather App',
@@ -40,7 +43,8 @@ function Portfolio(props) {
         img_url:'weather.png',
         img_alt:'Weather App',
         img_title:'Weather App created by Aurelia Simatupang',
-        tags:['React.js', 'axios']
+        tags:['React.js', 'axios'],
+        type:'pers'
       },
       {
         title: 'Dictionary App',
@@ -49,7 +53,8 @@ function Portfolio(props) {
         img_url:'dictionary.png',
         img_alt:'Dictionary App',
         img_title:'Dictionary App created by Aurelia Simatupang',
-        tags:['React.js', 'axios']
+        tags:['React.js', 'axios'],
+        type:'pers'
       },
       {
         title: 'Worldclock App',
@@ -58,21 +63,25 @@ function Portfolio(props) {
         img_url:'worldclock.png',
         img_alt:'World Clock App',
         img_title:'World Clock App created by Aurelia Simatupang',
-        tags: ['Vanilla js', 'HTML5','CSS','moment.js']
+        tags: ['Vanilla js', 'HTML5','CSS','moment.js'],
+        type:'pers'
       }
     ];
-    return (
-        <div>
-          <h2 class="text-center">Portfolio</h2>
-          <div class="row">
-            {portfolio.map((item, key) => (
-                <div class="col-lg-4">
-                    <Card info={item} id={`portfolio-card-${key}`} class="col-4"/>
-                </div>
-            ))}
-          </div>
+
+  return (
+      <div>
+        <h2 class="text-center">Portfolio</h2>
+        <p class="text-center">See all my past works, ranging from professional experience to personal passion projects. You can find the source code for some of them in my <a id="github-link" href="https://github.com/aurelreynasimatupang">GitHub!</a></p>
+        
+        <div class="row g-4">
+          {portfolio.map((item, key) => (
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <Card info={item} id={`portfolio-card-${key}`} class="col-4" />
+              </div>
+          ))}
         </div>
-    );
+      </div>
+  );
 }
 
 export default Portfolio;

@@ -2,7 +2,7 @@ import React from 'react';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import NavBar from './component/NavBar';
-import Main from './pages/Main';
+import Heading from './pages/Heading';
 import Contact from './pages/Contact';
 import './styles/app.scss';
 
@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <NavBar />
       <div class="main">
-        <div class="content">
-          <Main />
+        <div id="heading" class="content">
+          <Heading />
         </div>
         <div id="about" class="content">
           <br/>

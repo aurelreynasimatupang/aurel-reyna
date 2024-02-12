@@ -1,0 +1,161 @@
+@import "./app.scss";
+
+//about
+.about-intro {
+    min-width: 300px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    font-family: $body-font;
+}
+
+.vf {
+    display: none;
+}
+
+.vf {
+    display: block;
+}
+
+.about-timeline {
+    height: 700px;
+    font-size: 20px;
+    #t-2018{
+        position: absolute;
+        top: 543px;
+        left:58px;
+    }
+    #t-2020{
+        text-align: right;
+        position: absolute;
+        top: 383px;
+        right:58px;
+    }
+    #t-2021{
+        position: absolute;
+        top: 303px;
+        left:58px;
+    }
+    #t-2022{
+        text-align: right;
+        position: absolute;
+        top: 147px;
+        right:58px;
+    }
+    #t-2023{
+        position: absolute;
+        top: 63px;
+        left:58px;
+    }
+    #t-2024{
+        position: absolute;
+        top: -14px;
+        right:58px;
+        text-align: right;
+    }
+    .blank{
+        height: 80px;
+    }
+    .vl {
+        border-left: 3px solid $secondary-color;
+        height: 600px;
+        position: absolute;
+        left: 50%;
+    }
+    .vhr {
+        background-color: $secondary-color;
+        width: 50px;
+        height: 3px;
+        position: absolute;
+        left: 50%;
+        display: inline;
+    }
+    .vhl {
+        background-color: $secondary-color;
+        width: 50px;
+        height: 3px;
+        position: absolute;
+        right: 50%;
+        display: inline;
+    }
+}
+
+.tl-text {
+    width: 300px;
+    h4 {
+        color: $tertiary-color;
+        font-family: $title-font;
+        font-weight: 600;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tl-text {
+        max-width:175px;
+        font-size: 14px;
+    }
+
+    .about-timeline {
+        height: 550px;
+        font-size: 12px;
+        #t-2018{
+            position: absolute;
+            top: 463px;
+            left:58px;
+        }
+        #t-2020{
+            text-align: right;
+            position: absolute;
+            top: 383px;
+            right:58px;
+        }
+        #t-2021{
+            position: absolute;
+            top: 303px;
+            left:58px;
+        }
+        #t-2022{
+            text-align: right;
+            position: absolute;
+            top: 147px;
+            right:58px;
+        }
+        #t-2023{
+            position: absolute;
+            top: 63px;
+            left:58px;
+        }
+        #t-2024{
+            position: absolute;
+            top: -14px;
+            right:58px;
+            text-align: right;
+        }
+        .vl{
+            height: 531px;
+        }
+    }
+    .vf {
+        display: block;
+    }
+    .fv {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-intro {
+        min-width: 200px;
+    }
+    
+    
+    .tl-text {
+        width:120px;
+        h4 {
+            font-size: 20px;
+        }
+        font-size: 12px;
+    }
+}

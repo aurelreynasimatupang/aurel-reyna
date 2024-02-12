@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/app.scss";
+import "../styles/about.scss";
 
 function About() {
     return (
@@ -16,7 +17,7 @@ function About() {
                 <div class="vl">
                 <p id="t-2024" class="tl-text">
                     <h4>2024</h4>
-                    Concluded Freelance Web Project for P.T. Cahy Amert Internusa
+                    Concluded Freelance Web Project for P.T. Cahaya Amert Internusa
                 </p>
                 <p id="t-2023" class="tl-text">
                     <h4>2023</h4>
@@ -47,9 +48,10 @@ function About() {
                 <div class="blank"></div>
                 <div class="vhl"></div>
                 <div class="blank"></div>
+                <div class="blank vf"></div>
                 <div class="vhr"></div>
                 <div class="blank"></div>
-                <div class="blank"></div>
+                <div class="blank fv"></div>
                 <div class="vhl"></div>
                 <div class="blank"></div>
                 <div class="vhr"></div>
