@@ -26,13 +26,13 @@ function About() {
                 </p>
                 <p id="t-2022" class="tl-text">
                     <h4>2022</h4>
-                    <b>Feb:</b> Study Data Science with Data Camp<br/>
-                    <b>Apr:</b> Belsimpel internship project<br/>
+                    <b>Feb:</b> Study SQL with Data Camp<br/>
+                    <b>Apr:</b> Belsimpel front-end internship project<br/>
                     <b>Sep:</b> Exchange semester in Hong Kong University of Science and Technology
                 </p>
                 <p id="t-2021" class="tl-text">
                     <h4>2021</h4>
-                    <b>Oct:</b> Obtained front-end development certificates with SheCodes
+                    <b>Oct:</b> React.js Front-end Developer workshop with SheCodes
                 </p>
                 <p id="t-2020" class="tl-text">
                     <h4>2020</h4>
