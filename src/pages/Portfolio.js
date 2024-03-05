@@ -37,6 +37,16 @@ function Portfolio(props) {
         type:'prof'
       },
       {
+        title:'AI Poem Generator App',
+        text:'Project as part of the SheCodes Plus Addon AI workshop, built with Vanill JS and axios on top of a free AI API.',
+        link:'https://poemgenerator-aurelreyna.netlify.app/',
+        img_url:'poem.png',
+        img_alt:'Poem Generator App',
+        img_title:'AI Poem Generator App creted by Aurelia Simatupang',
+        tags: ['Javascipt', 'axios', 'AI'],
+        type:'pers',
+      },
+      {
         title: 'Weather App',
         text: 'Project as part of the SheCodes React workshop, built with React.js and axios on top of free API.',
         link: 'https://weather-aurelreyna.netlify.app/',
