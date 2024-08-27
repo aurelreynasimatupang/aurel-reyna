@@ -34,7 +34,7 @@ function App() {
         <br />
         <p class="footer-text">
           Built with React. Hosted by Netlify and <a href="https://github.com/aurelreynasimatupang/aurel-reyna">GitHub</a> <br/>
-          <i class="icon-advanced"></i> 2023
+          <i class="icon-advanced"></i> 2024
         </p>
         
       </div>

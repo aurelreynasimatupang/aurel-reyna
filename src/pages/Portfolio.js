@@ -47,16 +47,6 @@ function Portfolio(props) {
         type:'pers',
       },
       {
-        title: 'Weather App',
-        text: 'Project as part of the SheCodes React workshop, built with React.js and axios on top of free API.',
-        link: 'https://weather-aurelreyna.netlify.app/',
-        img_url:'weather.png',
-        img_alt:'Weather App',
-        img_title:'Weather App created by Aurelia Simatupang',
-        tags:['React.js', 'axios'],
-        type:'pers'
-      },
-      {
         title: 'Dictionary App',
         text: 'Project as part of the SheCodes React workshop, built with React.js and axios on top of free API.',
         link: 'https://dictionary-aurelreyna.netlify.app/',
