@@ -80,7 +80,7 @@ function Portfolio(props) {
               </div>
           ))}
         </div>
-        <img src={require(`../img/bg.png`)} alt="bg" title="Bg" />
+        <img src={require(`../img/bg.PNG`)} alt="bg" title="Bg" />
       </div>
   );
 }
